@@ -1,14 +1,15 @@
 # Convert a temperature from Celcius to Fahrenheit 
 # Temperature in degrees Fahrenheit (°F) = (Temperature in degrees Celsius (°C) * 9/5) + 32
-print ("\nSubi - Day 1 of #100DaysOfCode\n")
+print ("\nSubi - Day 2 of #100DaysOfCode\n")
 
-# celcius = int(input("enter the celcius input:"))
-# fahrenheit = (celcius*9/5) + 32
-# print("Fahrenheit of " + str(celcius) + " celcius: ", fahrenheit)
+print("\n Celcius to Farenheit program\n")
+celcius = int(input("enter the celcius input:"))
+fahrenheit = (celcius*9/5) + 32
+print("Fahrenheit of " + str(celcius) + " celcius: ", fahrenheit)
 
 
 # Create a simple calculator program with functions for addition, subtraction, multiplication, and division. 
-print("\nCalculator program using python")
+print("\nCalculator program using python\n")
 
 def add(x,y):
     return x+y
