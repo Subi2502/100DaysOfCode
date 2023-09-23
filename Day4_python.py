@@ -10,4 +10,3 @@ for a in range(2,r+1):
             k=k+1  
     if(k<=0):  
         print(a,end=" ")  
-
