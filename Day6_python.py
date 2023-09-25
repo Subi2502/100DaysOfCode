@@ -1,6 +1,6 @@
 #Calculate the area of a circle   
 print ("\nSubi - Day 6 of #100DaysOfCode\n")
-print("\narea of a circle\n")
+print("\nArea of a Circle\n")
 
 import math
 radius = float(input("Enter the radius of the circle :"))
