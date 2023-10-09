@@ -1,13 +1,13 @@
 #Calculate the sum of all even numbers between 1 and 100 using a for loop
-# print ("\nSubi - Day 16 of #100DaysOfCode\n") 
-# print("\nthe sum of all even numbers between 1 and 100 using a for loop\n")
+print ("\nSubi - Day 16 of #100DaysOfCode\n") 
+print("\nthe sum of all even numbers between 1 and 100 using a for loop\n")
 
-# total = 0
+total = 0
 
-# for number in range(101):
-#     if number % 2 == 0:
-#         total = total + number
-# print("The sum of the even numbers (0-100) : ", total) 
+for number in range(101):
+    if number % 2 == 0:
+        total = total + number
+print("The sum of the even numbers (0-100) : ", total) 
 
 
 #Write a program to check if a number is prime using a while loop

@@ -1,42 +1,42 @@
 #Implement a basic calculator program using a menu-driven approach 
-# print ("\nSubi - Day 19 of #100DaysOfCode\n") 
-# print("\nBasic calculator program using a menu-driven approach\n")
+print ("\nSubi - Day 19 of #100DaysOfCode\n") 
+print("\nBasic calculator program using a menu-driven approach\n")
 
-# def calc():
-#     while True:
-#         print("1. Addition") 
-#         print("2. SUbtraction")
-#         print("3. Multiplication")
-#         print("4. Division")
-#         print("5. Exit")
-#         opt = int(input("Enter your choice:"))
-#         if opt == 1:
-#             n1 = int(input("Enter no1:"))
-#             n2 = int(input("Enter no2:"))
-#             res = n1 + n2
-#             print("The result is:",res)
-#         elif opt == 2:
-#             n1 = int(input("Enter no1:"))
-#             n2 = int(input("Enter no2:"))
-#             res = n1 - n2
-#             print("The result is:",res)
-#         elif opt == 3:
-#             n1 = int(input("Enter no1:"))
-#             n2 = int(input("Enter no2:"))
-#             res = n1 * n2
-#             print("The result is:",res)
-#         elif opt == 4:
-#             n1 = int(input("Enter no1:"))
-#             n2 = int(input("Enter no2:"))
-#             res = n1 / n2
-#             print("The result is:",res)
-#         elif opt == 5:
-#             print("Thank you!")
-#             break
-#         ch = input("Press N to Exit:")
-#         if ch in 'Nn':
-#             break
-# calc()
+def calc():
+    while True:
+        print("1. Addition") 
+        print("2. SUbtraction")
+        print("3. Multiplication")
+        print("4. Division")
+        print("5. Exit")
+        opt = int(input("Enter your choice:"))
+        if opt == 1:
+            n1 = int(input("Enter no1:"))
+            n2 = int(input("Enter no2:"))
+            res = n1 + n2
+            print("The result is:",res)
+        elif opt == 2:
+            n1 = int(input("Enter no1:"))
+            n2 = int(input("Enter no2:"))
+            res = n1 - n2
+            print("The result is:",res)
+        elif opt == 3:
+            n1 = int(input("Enter no1:"))
+            n2 = int(input("Enter no2:"))
+            res = n1 * n2
+            print("The result is:",res)
+        elif opt == 4:
+            n1 = int(input("Enter no1:"))
+            n2 = int(input("Enter no2:"))
+            res = n1 / n2
+            print("The result is:",res)
+        elif opt == 5:
+            print("Thank you!")
+            break
+            ch = input("Press N to Exit:")
+            if ch in 'Nn':
+                break
+calc()
 
 
 #Write a program to find the GCD (Greatest Common (Greatest Common Divisor) of two numbers using a while loop.

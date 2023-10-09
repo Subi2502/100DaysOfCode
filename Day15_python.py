@@ -1,11 +1,11 @@
 #Implement a while loop to print numbers from 1 to 10  
-# print ("\nSubi - Day 15 of #100DaysOfCode\n") 
-# print("\nwhile loop to print numbers from 1 to 10\n")
+print ("\nSubi - Day 15 of #100DaysOfCode\n") 
+print("\nwhile loop to print numbers from 1 to 10\n")
 
-# input = 1
-# while input <= 10:
-#      print(input)
-#      input +=1
+input = 1
+while input <= 10:
+     print(input)
+     input +=1
 
 
 #Use a for loop to iterate through a list and print each element     
