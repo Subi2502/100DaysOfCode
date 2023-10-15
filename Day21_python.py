@@ -1,20 +1,20 @@
 #Print the multiplication table of a number using nested loops.
-# print ("\nSubi - Day 21 of #100DaysOfCode\n") 
-# print("\nPrint the multiplication table of a number using nested loops.\n")
+print ("\nSubi - Day 21 of #100DaysOfCode\n") 
+print("\nPrint the multiplication table of a number using nested loops.\n")
 
-# nums = [3, 5]
-# max = 999
-# result = 0
-# for num in nums:
-#     for i in range(1,max):
-#         if num*i < max:
-#             result += num*i
-# print (result)
-# result = 0
-# for i in range(0,max):
-#     if i%3 == 0 or i%5 == 0:
-#         result += i
-# print (result)
+nums = [3, 5]
+max = 999
+result = 0
+for num in nums:
+    for i in range(1,max):
+        if num*i < max:
+            result += num*i
+print (result)
+result = 0
+for i in range(0,max):
+    if i%3 == 0 or i%5 == 0:
+        result += i
+print (result)
 
 
 #Write a program to reverse a number using a while loop.

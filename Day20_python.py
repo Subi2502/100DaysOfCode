@@ -1,16 +1,16 @@
 #Print the multiplication table of a number using nested loops.
-# print ("\nSubi - Day 20 of #100DaysOfCode\n") 
-# print("\nPrint the multiplication table of a number using nested loops.\n")
+print ("\nSubi - Day 20 of #100DaysOfCode\n") 
+print("\nPrint the multiplication table of a number using nested loops.\n")
 
-# print("\t\t\t\tMultiplication Tables\n")
-# for i in range(1,13):
-#     print(i, end="\t")
-# print()
-# print("____________________________________________________________________\n")
-# for j in range(1,13):
-#     for k in range(1,13):
-#         print(j * k, end ="\t")
-#     print("\n")
+print("\t\t\t\tMultiplication Tables\n")
+for i in range(1,13):
+    print(i, end="\t")
+print()
+print("____________________________________________________________________\n")
+for j in range(1,13):
+    for k in range(1,13):
+        print(j * k, end ="\t")
+    print("\n")
 
 
 #Implement a program to check if a year is a leap year using if-else statements.

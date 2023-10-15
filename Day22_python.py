@@ -1,12 +1,12 @@
 #Create a function to calculate the area of a rectangle.
-# print ("\nSubi - Day 22 of #100DaysOfCode\n") 
-# print("\nCreate a function to calculate the area of a rectangle\n")
+print ("\nSubi - Day 22 of #100DaysOfCode\n") 
+print("\nCreate a function to calculate the area of a rectangle\n")
 
-# def rectangle_area(base, height): 
-#     area = base*height 
-#     print("The area is " + str(area)) 
+def rectangle_area(base, height): 
+    area = base*height 
+    print("The area is " + str(area)) 
 
-# rectangle_area(12,42)
+rectangle_area(12,42)
 
 
 #Write a function to check if a number is a perfect square.

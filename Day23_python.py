@@ -1,17 +1,17 @@
 #Implement a function to find the LCM (Least Common Multiple) of two numbers.
-# print ("\nSubi - Day 23 of #100DaysOfCode\n") 
-# print("\nfunction to find the LCM of two numbers\n")
+print ("\nSubi - Day 23 of #100DaysOfCode\n") 
+print("\nfunction to find the LCM of two numbers\n")
 
-# def find_lcm(x, y):
-#     max = x if x > y else y
-#     while True:
-#         if max % x == 0 and max % y == 0:
-#             return max
-#         max +=1
-# a = int(input("Enter First Number :"))
-# b = int(input("Enter Second Number :"))
-# lcm_result = find_lcm(a, b)
-# print("LCM is : ", lcm_result)
+def find_lcm(x, y):
+    max = x if x > y else y
+    while True:
+        if max % x == 0 and max % y == 0:
+            return max
+        max +=1
+a = int(input("Enter First Number :"))
+b = int(input("Enter Second Number :"))
+lcm_result = find_lcm(a, b)
+print("LCM is : ", lcm_result)
 
 
 #Create a function to generate a list of prime numbers up to a given limit.

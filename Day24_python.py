@@ -1,15 +1,15 @@
 #Implement a function to check if a string is a palindrome.
-# print ("\nSubi - Day 24 of #100DaysOfCode\n") 
-# print("\nfunction to check if a string is a palindrome\n")
+print ("\nSubi - Day 24 of #100DaysOfCode\n") 
+print("\nfunction to check if a string is a palindrome\n")
 
-# def is_palindrome(s, c):
-#     if c == True:
-#         s == s.upper()
-#     if s == s[::-1]:
-#         return True
-#     else:
-#         return False
-# print(is_palindrome("TaT",True))    
+def is_palindrome(s, c):
+    if c == True:
+        s == s.upper()
+    if s == s[::-1]:
+        return True
+    else:
+        return False
+print(is_palindrome("TaT",True))    
 
 
 #Create a function that accepts a list of words and returns the longest word.
