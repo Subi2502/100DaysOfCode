@@ -1,23 +1,23 @@
 #Implement a stack data structure using a list
-# print ("\nSubi - Day 27 of #100DaysOfCode\n") 
-# print("\nImplement a stack data structure using a list\n")
+print ("\nSubi - Day 27 of #100DaysOfCode\n") 
+print("\nImplement a stack data structure using a list\n")
 
-# stack = []
+stack = []
 
-# stack.append("10")
-# stack.append("20")
-# stack.append("30")
+stack.append("10")
+stack.append("20")
+stack.append("30")
 
-# print("\nInitial stack")
-# print(stack)
+print("\nInitial stack")
+print(stack)
 
-# print("\nNumbers popped from stack: ")
-# print(stack.pop())
-# print(stack.pop())
-# print(stack.pop())
+print("\nNumbers popped from stack: ")
+print(stack.pop())
+print(stack.pop())
+print(stack.pop())
 
-# print("\nStack after Numbers are popped: ")
-# print(stack)
+print("\nStack after Numbers are popped: ")
+print(stack)
 
 
 #Create a queue data structure using a list
