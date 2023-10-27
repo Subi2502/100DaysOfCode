@@ -20,6 +20,7 @@ my_date = date(1996, 12, 11)
   
 print("Date passed as argument is", my_date)
 
+
 import datetime
 
 date = datetime.date(2023, 3, 8)
@@ -27,6 +28,3 @@ date = datetime.date(2023, 3, 8)
 time = datetime.time(14, 53, 55)
 
 print(datetime.datetime.combine(date, time))
-
-
-#Implement a program that fetches data from a website using the requests library.

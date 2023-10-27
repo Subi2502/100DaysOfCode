@@ -1,21 +1,21 @@
 #Create a class for a student with attributes like name, age, and grade.
-# print ("\nSubi - Day 35 of #100DaysOfCode\n") 
-# print("\nclass for a student with attributes like name, age, and grade\n")
+print ("\nSubi - Day 35 of #100DaysOfCode\n") 
+print("\nclass for a student with attributes like name, age, and grade\n")
 
-# class Student:
-#   def __init__(self, name, age, grade):
-#     self.name = name
-#     self.age = age
-#     self.grade = grade
+class Student:
+  def __init__(self, name, age, grade):
+    self.name = name
+    self.age = age
+    self.grade = grade
 
-#   def get_student_info(self):
-#     return f"Student(name: {self.name}, age: {self.age}, grade: {self.grade})"
+  def get_student_info(self):
+    return f"Student(name: {self.name}, age: {self.age}, grade: {self.grade})"
 
-# s1 = Student("nancy", 12, "A")
-# s2 = Student("rose", 14, "B")
+s1 = Student("nancy", 12, "A")
+s2 = Student("rose", 14, "B")
 
-# print(s1.get_student_info())
-# print(s2.get_student_info())
+print(s1.get_student_info())
+print(s2.get_student_info())
 
 
 #Implement a class for a simple game character.

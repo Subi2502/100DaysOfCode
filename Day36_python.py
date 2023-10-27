@@ -16,13 +16,6 @@ print(zero_exception(15, 0))
 #Implement a try-except block to catch a specific exception.
 print("\nImplement a try-except block to catch a specific exception\n")
 
-# try:
-#     user_input = input("Enter a number: ")
-#     number = int(user_input)
-# except ValueError:
-#     print("Invalid input. Please enter a valid number.")
-
-
 try:
     file = open("myfile.txt")
     contents = file.read()
