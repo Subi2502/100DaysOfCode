@@ -22,3 +22,4 @@ if __name__ == "__main__":
 
     print(f"Ciphertext: {list(ciphertext)}")
     print(f"Decrypted plaintext: {vernam_decrypt(ciphertext, key)}")
+    
