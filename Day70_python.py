@@ -1,6 +1,6 @@
 #Write a program to implement a depth-first search (DFS) algorithm..
 print ("\nSubi - Day 70 of #100DaysOfCode\n") 
-print("\nWrite a program to implement a depth-first search (DFS) algorithm.\n")\
+print("\nWrite a program to implement a depth-first search (DFS) algorithm.\n")
 
 def dfs(graph, start_node):
 
