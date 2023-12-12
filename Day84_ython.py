@@ -1,6 +1,6 @@
-#.
+#Write a program to implement a trie data structure.
 print ("\nSubi - Day 84 of #100DaysOfCode\n") 
-print("\n\n")
+print("\nWrite a program to implement a trie data structure\n")
 
 class TrieNode:
  
