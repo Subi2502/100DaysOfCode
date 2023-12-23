@@ -34,6 +34,7 @@ class Graph:
         for neighbour in self.graph[vertex]:
           queue.append(neighbour)
 
+
 graph = Graph()
 graph.add_edge(0, 1)
 graph.add_edge(0, 2)
@@ -47,6 +48,3 @@ graph.dfs(2)
 
 print("\nBFS traversal:")
 graph.bfs(2)
-
-
-
