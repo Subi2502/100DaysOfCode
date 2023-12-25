@@ -1,5 +1,5 @@
 #Write a program to find the maximum flow in a flow network (Ford-Fulkerson algorithm).
-print ("\nSubi - Day 96 of #100DaysOfCode\n") 
+print ("\nSubi - Day 97 of #100DaysOfCode\n") 
 print("\nWrite a program to find the maximum flow in a flow network (Ford-Fulkerson algorithm)\n")
 
 from collections import defaultdict
